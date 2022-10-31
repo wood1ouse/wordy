@@ -1,0 +1,7 @@
+{
+  "name": "wordy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
