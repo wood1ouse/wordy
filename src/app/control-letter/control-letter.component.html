@@ -1,0 +1,13 @@
+<div
+  *ngIf="letter"
+  mat-ripple
+  [matRippleRadius]="25"
+  [matRippleCentered]="true"
+  [matRippleUnbounded]="true"
+  [matRippleAnimation]="{ enterDuration: 300, exitDuration: 10 }"
+  [matRippleColor]="(letter.active && '#396661') || 'white'"
+  class="foo"
+  [ngClass]="{ active: letter.active }"
+  (click)="toggleActive()">
+  {{ letter.value }}
+</div>

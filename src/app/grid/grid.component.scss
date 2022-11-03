@@ -1,0 +1,14 @@
+@import 'colors';
+
+.word-grid {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  gap: 8px 8px;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+}
