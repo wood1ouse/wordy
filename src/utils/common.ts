@@ -1,4 +1,4 @@
-import { Cell } from 'src/models/grid';
+import { Cell } from '@models/grid';
 
 export const generateField = (m: number, n: number): Cell[] => {
   const field = [];

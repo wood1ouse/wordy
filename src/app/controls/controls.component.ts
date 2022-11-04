@@ -1,4 +1,4 @@
-import { ControlLetter } from './../../models/grid';
+import { ControlLetter } from '@models/grid';
 import { Component } from '@angular/core';
 
 @Component({

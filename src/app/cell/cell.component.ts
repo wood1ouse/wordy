@@ -1,4 +1,5 @@
-import { Cell, Word } from '../../models/grid';
+import { Cell, Word } from '@models/grid';
+
 import { Component, Input } from '@angular/core';
 
 @Component({

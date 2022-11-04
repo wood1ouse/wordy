@@ -1,7 +1,8 @@
-import { Word } from './../../models/grid';
 import { Component, OnInit } from '@angular/core';
-import { Cell } from 'src/models/grid';
-import { generateField } from 'src/utils/common';
+
+import { Cell } from '@models/grid';
+
+import { generateField } from '@uitls/common';
 
 @Component({
   selector: 'wordy-grid',
@@ -13,9 +14,5 @@ export class GridComponent implements OnInit {
 
   ngOnInit(): void {
     this.cells = generateField(5, 6);
-  }
-
-  isVertical(word: Word): boolean {
-    return word.letters[0].y < word.letters[1].y;
   }
 }
