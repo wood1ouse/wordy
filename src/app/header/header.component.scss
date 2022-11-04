@@ -1,0 +1,14 @@
+@import 'colors';
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+
+  &__container {
+    margin-top: 43px;
+    width: 100vw;
+  }
+}

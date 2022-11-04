@@ -1,0 +1,11 @@
+<ng-container *ngFor="let word of words">
+  <ng-container *ngFor="let letter of word.letters">
+    <div
+      (click)="showCell(cell)"
+      class="word-cell"
+      [ngClass]="{ guessed: word.guessed }"
+      *ngIf="cell.x === letter.x && cell.y === letter.y">
+      {{ letter.value }}
+    </div>
+  </ng-container>
+</ng-container>

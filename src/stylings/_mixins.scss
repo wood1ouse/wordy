@@ -1,0 +1,15 @@
+@mixin control-letter {
+  font-size: 28px;
+  color: $white;
+  border-radius: 16px;
+  display: flex;
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

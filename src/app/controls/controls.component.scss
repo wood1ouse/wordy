@@ -1,0 +1,36 @@
+@import 'colors';
+@import 'mixins';
+
+.controls {
+  &__container {
+    &.four-letters {
+      display: flex;
+      justify-content: center;
+      margin-top: 20vh;
+
+      &__first-container {
+        &__letter-1 {
+          @include control-letter;
+        }
+        &__letter-2 {
+          margin-top: 56px;
+          @include control-letter;
+        }
+      }
+
+      &__second-container {
+        display: flex;
+        position: absolute;
+        margin-top: 56px;
+
+        &__letter-1 {
+          margin-right: 56px;
+          @include control-letter;
+        }
+        &__letter-2 {
+          @include control-letter;
+        }
+      }
+    }
+  }
+}
